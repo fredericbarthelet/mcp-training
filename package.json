@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Starter pack for MCP server",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
     "build": "tsc",
+    "build:watch": "tsc --watch",
     "start": "node dist/index.js",
+    "inspect": "npx @alpic-ai/grizzly node dist/index.js",
     "test": "vitest"
   },
   "repository": {
@@ -21,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/fredericbarthelet/mcp-training/issues"
   },
-  "homepage": "https://github.com/fredericbarthelet/mcp-training#readme"
+  "homepage": "https://github.com/fredericbarthelet/mcp-training#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@alpic-ai/grizzly": "^0.3.0",
+    "typescript": "^5.8.3"
+  }
 }
