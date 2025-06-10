@@ -8,7 +8,7 @@
     "build": "tsc",
     "build:watch": "tsc --watch",
     "start": "node dist/index.js",
-    "inspect": "npx @alpic-ai/grizzly node dist/index.js",
+    "inspect": "npx @modelcontextprotocol/inspector node dist/index.js",
     "test": "vitest"
   },
   "repository": {
@@ -28,7 +28,7 @@
     "@modelcontextprotocol/sdk": "^1.12.1"
   },
   "devDependencies": {
-    "@alpic-ai/grizzly": "^0.3.0",
+    "@modelcontextprotocol/inspector": "^0.14.0",
     "typescript": "^5.8.3"
   }
 }
