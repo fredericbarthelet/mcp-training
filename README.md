@@ -1,5 +1,7 @@
 # MCP Training
 
+[![smithery badge](https://smithery.ai/badge/@fredericbarthelet/mcp-training)](https://smithery.ai/server/@fredericbarthelet/mcp-training)
+
 A brief description of what this project does and who it's for.
 (Example: "MCP Training is a tool for ...")
 
@@ -13,6 +15,14 @@ A brief description of what this project does and who it's for.
 - [License](#license)
 
 ## Installation
+
+### Installing via Smithery
+
+To install MCP Training for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@fredericbarthelet/mcp-training):
+
+```bash
+npx -y @smithery/cli install @fredericbarthelet/mcp-training --client claude
+```
 
 ### Prerequisites
 
